@@ -5,7 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { appRoutingProviders, routing } from './/app-routing.module';
 import { InicioComponent } from './inicio/inicio.component';
-import {MatCardModule} from '@angular/material';
+import { MatCardModule, MatInputModule} from '@angular/material';
 
 
 @NgModule({
@@ -17,7 +17,8 @@ import {MatCardModule} from '@angular/material';
     BrowserModule,
     BrowserAnimationsModule,
     routing,
-    MatCardModule
+    MatCardModule,
+    MatInputModule
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

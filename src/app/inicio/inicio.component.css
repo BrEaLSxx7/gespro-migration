@@ -1,0 +1,17 @@
+.card-principal{
+width: 98%;
+margin: 1%;
+height: 80%;
+background-color: red;
+}
+.card-login{
+	width: 45%;
+	margin: 0.8%;
+	height: 76%
+}
+.card-register{
+	width: 45%;
+margin: 0.8% 0% 0.8% 50%;
+height: 76%;
+
+}
